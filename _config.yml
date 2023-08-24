@@ -21,27 +21,25 @@ show-nav-menu: true
 nav-menu:
 - text: About
   permalink: about
-- text: Bitcoin
-  permalink: bitcoin
-- text: Blog
-  permalink: blog
+- text: Book Lessons
+  permalink: book
 
 # use false to turn off any social media links
-twitter: https://twitter.com/
-facebook: https://facebook.com/
-instagram: https://instagram.com/
-github: https://github.com/
-linkedin: https://linkedin.com/
+twitter: false
+facebook: https://www.facebook.com/groups/gemswimidaho
+instagram: https://www.instagram.com/gemswimidaho/
+github: false
+linkedin: false
 medium: false
 google-scholar: false
 email: false
 
 # footer information
-footer-msg: "Powered by Tailpages"
-footer-msg-link: https://github.com/harrywang/tailpages
+footer-msg: "Gem Swim"
+# footer-msg-link: https://github.com/harrywang/tailpages
 
 # google analytics
-google-analytics: G-WCRC1TC2V5
+# google-analytics: G-WCRC1TC2V5
 
 # jekyll plugins - no need to change
 plugins:
