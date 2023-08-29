@@ -10,11 +10,6 @@ description: A Github Pages (Jekyll) template based on TailwindCSS
 # color theme for links
 theme-color: indigo # indigo|yellow|pink|green|stone|
 
-# homepage information
-author: Drake Loud
-author-bio: Creator of Bitcoin  # change to false to hide
-author-image: 279.png  # file must be in the /assets/img/ folder
-
 # navigation menu
 show-nav-menu: true
 
