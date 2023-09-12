@@ -13,11 +13,34 @@ theme-color: indigo # indigo|yellow|pink|green|stone|
 # navigation menu
 show-nav-menu: true
 
-nav-menu:
-- text: About
-  permalink: about
-- text: Book Lessons
-  permalink: book
+employees:
+- name: Kirsten Clayton
+  title: Founder / CEO
+  description: Welcome! I am the owner of Gem Swim and mother of 3 girls.
+            I am a certified WSI, Survival Swim instructor and swim mom. I am passionate about safety and swimming and
+            believe every child should know how to be safe in the water. I LOVE watching kids progress. Nothing beats
+            seeing that float for the first time! Thank you for trusting us to teach your kids. I can't wait to see you
+            poolside!
+  picture: kirsten.jpg
+- name: Olivia
+  title: Swim Teacher
+  description: Hey!! My name is Olivia. I'm currently a lifeguard at the rec center and CPR/AED certified. I love hanging 
+            out with kids! My goal this summer is to help your kids become comfortable and have fun in the water!
+  picture: liv.jpg
+- name: Kaleb
+  title: Swim Teacher
+  description: Hello! My name is Kaleb. I am currently a member of the Nampa Shark Swim Team and Treasure Valley Water 
+            Polo Team. From a young age, I have always loved swimming. I feel it is an important skill for everyone to 
+            have. I look forward to meeting you and sharing not just the imporant swimming skills but also how fun it can be!
+  picture: kaleb.jpg
+- name: Sadie
+  title: Swim Teacher
+  description: Hello! I love being active and having fun! I am on my high school cross country, track, and swim team. 
+            I have also been competitively swimming for 9 years. I am Lifeguard and CPR certified and can't wait to meet 
+            your kids and help them feel as comfortable in the water as I am!
+  picture: sadie.jpg
+
+
 
 # use false to turn off any social media links
 twitter: false

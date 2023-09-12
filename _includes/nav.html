@@ -19,14 +19,14 @@
                     href="{{site.baseurl}}/">
                     Home
                 </a>
-
-                <!-- dynamic menu based on navigation info in _config.yml -->
-                {% for link in site.nav-menu %}
                 <a class="text-sm text-gray-500 hover:text-gray-900 px-3 py-2 lg:py-1 mx-auto uppercase"
-                    href="{{site.baseurl}}/{{link.permalink}}">
-                    {{link.text}}
+                    href="{{site.baseurl}}/about">
+                    About
                 </a>
-                {% endfor %}
+                <a class="text-sm text-gray-500 hover:text-gray-900 px-3 py-2 lg:py-1 mx-auto uppercase"
+                    href="{{site.baseurl}}/book">
+                    Book Lessons
+                </a>
             </div>
         </div>
     </div>
