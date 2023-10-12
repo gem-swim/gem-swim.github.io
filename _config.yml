@@ -4,8 +4,8 @@ baseurl: "" # the name of your github repo
 url: "http://127.0.0.1:4000/" # Local
 
 # site information used in page title, meta data etc.
-title: "Tailpages: Tailwind + Github Pages"
-description: A Github Pages (Jekyll) template based on TailwindCSS
+title: "Gem Swim"
+description: One on one survival swim lessons in Idaho
 
 # color theme for links
 theme-color: indigo # indigo|yellow|pink|green|stone|
@@ -98,10 +98,6 @@ email: false
 
 # footer information
 footer-msg: "Gem Swim"
-# footer-msg-link: https://github.com/harrywang/tailpages
-
-# google analytics
-# google-analytics: G-WCRC1TC2V5
 
 # jekyll plugins - no need to change
 plugins:

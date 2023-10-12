@@ -1,10 +1,10 @@
 {
-  "name": "tailpages",
+  "name": "gem_swim",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/harrywang/tailpages.git",
-  "author": "Harry Wang <harryjwang@gmail.com>",
-  "license": "MIT",
+  "repository": "",
+  "author": "",
+  "license": "",
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.0",
     "autoprefixer": "^10.4.2",

@@ -2,12 +2,6 @@
 <html lang="{{ site.lang | default: " en-US" }}">
 
 <head>
-
-  <!-- google analytics -->
-  {% if site.google-analytics %}
-  {% include google-analytics.html %}
-  {% endif %}
-
   <!-- Jekyll SEO plugin -->
   {% seo %}
 
@@ -86,17 +80,6 @@
     }
     document.getElementById(dropdownID).classList.toggle("hidden");
     document.getElementById(dropdownID).classList.toggle("block");
-  }
-
-  /* Function for show/hide table of content */
-  function toggleTOC() {
-    var toc = document.getElementById('toc');
-    if (toc.style.display == "block") { // if toc hidden, display it 
-      toc.style.display = "none";
-    }
-    else { // if toc displayed, hidden it
-      toc.style.display = "block";
-    }
   }
 </script>
 
