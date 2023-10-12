@@ -64,6 +64,20 @@
     document.getElementById(collapseID).classList.toggle("hidden");
     document.getElementById(collapseID).classList.toggle("block");
   }
+  // /* Function for toggling FAQ */
+  function toggleFaq(collapseID) {
+    const id_plus = collapseID + '_faq_plus'
+    const id_minus = collapseID + '_faq_minus'
+    const id_faq_content = collapseID + '_faq_content'
+
+    document.getElementById(id_plus).classList.toggle("hidden");
+    document.getElementById(id_plus).classList.toggle("block");
+    document.getElementById(id_minus).classList.toggle("hidden");
+    document.getElementById(id_minus).classList.toggle("block");
+    document.getElementById(id_faq_content).classList.toggle("hidden");
+    document.getElementById(id_faq_content).classList.toggle("block");
+  }
+
   /* Function for dropdowns */
   function openDropdown(event, dropdownID) {
     let element = event.target;
