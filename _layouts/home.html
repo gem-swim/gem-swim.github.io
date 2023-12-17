@@ -7,11 +7,12 @@ layout: default
     {% include nav.html%}
     {% endif %}
 
-    <div class="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:py-16">
+    <div
+      class="mx-auto max-w-7xl pb-24 pt-0 md:pt-6 lg:pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:py-16">
       <div class="px-6 lg:px-0 ">
         <div class="mx-auto max-w-2xl">
           <div class="max-w-lg">
-            <h1 class="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+            <h1 class="mt-0 lg:mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
               From Safety to Strokes - Building Strong Swimmers, One Lesson at a Time.</h1>
             <p class="mt-6 text-lg leading-8 text-gray-600">Lessons for all age groups, skill levels, and
               backgrounds,
@@ -67,10 +68,8 @@ layout: default
           <div>
             <div class="group relative max-w-xl">
               <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                <a href="#">
-                  <span class="absolute inset-0"></span>
-                  {{service.title}}
-                </a>
+                <span class="absolute inset-0"></span>
+                {{service.title}}
               </h3>
               <p class="mt-5 text-sm leading-6 text-gray-600">{{service.text}}</p>
             </div>
@@ -82,29 +81,6 @@ layout: default
   </div>
 
 </div>
-
-<!-- <div id="main_info" class="py-32" style="background-color: #e6f0ff;">
-  <div class="px-6 lg:px-8">
-    <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-      <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Survival Swim Lessons: 6 months and
-        older</h1>
-      <p class="text-base font-semibold leading-7 text-indigo-600">20 minutes @ $23.00</p>
-
-      <div class="mt-10 max-w-2xl">
-        <p class="mt-8">1:1 survival swim lesson focused on getting baby/child safe in the water. Kids will work on
-          breath
-          control,
-          going under water, back floating in a variety of different scenarios, and exiting the pool safely. We aim to
-          achieve a 60 second unassisted back float. Once the safety skills are acquired, we will move onto stroke work.
-        </p>
-        <p class="mt-8">We focus on the 6 main strokes, front crawl (freestyle), back crawl (back stroke), side stroke,
-          elementary back stroke, butterfly, breast stroke. There will also be some dive work.</p>
-        <p class="mt-8">***Lessons can begin at 6 months+ if developmentally appropriate.</p>
-      </div>
-    </div>
-  </div>
-
-</div> -->
 
 <div id="how_to_book" class="bg-white">
   <div class="px-6 lg:px-8 py-32">
@@ -118,9 +94,13 @@ layout: default
               <div class="relative flex space-x-3">
                 <div>
                   <span class="h-8 w-8 rounded-full bg-gray-400 flex items-center justify-center ring-8 ring-white">
-                    <svg class="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                      class="w-5 h-5 text-white">
                       <path
-                        d="M10 8a3 3 0 100-6 3 3 0 000 6zM3.465 14.493a1.23 1.23 0 00.41 1.412A9.957 9.957 0 0010 18c2.31 0 4.438-.784 6.131-2.1.43-.333.604-.903.408-1.41a7.002 7.002 0 00-13.074.003z" />
+                        d="M5.25 12a.75.75 0 01.75-.75h.01a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75H6a.75.75 0 01-.75-.75V12zM6 13.25a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 00.75-.75V14a.75.75 0 00-.75-.75H6zM7.25 12a.75.75 0 01.75-.75h.01a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75H8a.75.75 0 01-.75-.75V12zM8 13.25a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 00.75-.75V14a.75.75 0 00-.75-.75H8zM9.25 10a.75.75 0 01.75-.75h.01a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75H10a.75.75 0 01-.75-.75V10zM10 11.25a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 00.75-.75V12a.75.75 0 00-.75-.75H10zM9.25 14a.75.75 0 01.75-.75h.01a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75H10a.75.75 0 01-.75-.75V14zM12 9.25a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 00.75-.75V10a.75.75 0 00-.75-.75H12zM11.25 12a.75.75 0 01.75-.75h.01a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75H12a.75.75 0 01-.75-.75V12zM12 13.25a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 00.75-.75V14a.75.75 0 00-.75-.75H12zM13.25 10a.75.75 0 01.75-.75h.01a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75H14a.75.75 0 01-.75-.75V10zM14 11.25a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 00.75-.75V12a.75.75 0 00-.75-.75H14z" />
+                      <path fill-rule="evenodd"
+                        d="M5.75 2a.75.75 0 01.75.75V4h7V2.75a.75.75 0 011.5 0V4h.25A2.75 2.75 0 0118 6.75v8.5A2.75 2.75 0 0115.25 18H4.75A2.75 2.75 0 012 15.25v-8.5A2.75 2.75 0 014.75 4H5V2.75A.75.75 0 015.75 2zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75z"
+                        clip-rule="evenodd" />
                     </svg>
                   </span>
                 </div>
@@ -148,9 +128,10 @@ layout: default
               <div class="relative flex space-x-3">
                 <div>
                   <span class="h-8 w-8 rounded-full bg-blue-500 flex items-center justify-center ring-8 ring-white">
-                    <svg class="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                      class="w-5 h-5 text-white">
                       <path
-                        d="M1 8.25a1.25 1.25 0 112.5 0v7.5a1.25 1.25 0 11-2.5 0v-7.5zM11 3V1.7c0-.268.14-.526.395-.607A2 2 0 0114 3c0 .995-.182 1.948-.514 2.826-.204.54.166 1.174.744 1.174h2.52c1.243 0 2.261 1.01 2.146 2.247a23.864 23.864 0 01-1.341 5.974C17.153 16.323 16.072 17 14.9 17h-3.192a3 3 0 01-1.341-.317l-2.734-1.366A3 3 0 006.292 15H5V8h.963c.685 0 1.258-.483 1.612-1.068a4.011 4.011 0 012.166-1.73c.432-.143.853-.386 1.011-.814.16-.432.248-.9.248-1.388z" />
+                        d="M11 5a3 3 0 11-6 0 3 3 0 016 0zM2.615 16.428a1.224 1.224 0 01-.569-1.175 6.002 6.002 0 0111.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 018 18a9.953 9.953 0 01-5.385-1.572zM16.25 5.75a.75.75 0 00-1.5 0v2h-2a.75.75 0 000 1.5h2v2a.75.75 0 001.5 0v-2h2a.75.75 0 000-1.5h-2v-2z" />
                     </svg>
                   </span>
                 </div>
@@ -186,6 +167,8 @@ layout: default
                     <p class="">After you've picked the type of lesson, you can choose a specific instructor or simply
                       go with the 'Any Available' option. It'll show you the open lesson slots. Just select your
                       preferred date and time, specify the number of lessons you want, and then book with an instructor.
+                      <br />
+                      <br />
                       Here's an important tip! When you choose a lesson time, you'll see options like 'select and
                       continue', 'select and add another time', or 'select and make it recurring'. This lets you book
                       multiple times during the month in one go, saving you time.
@@ -230,7 +213,7 @@ layout: default
   </div>
 </div>
 
-<div class="bg-white">
+<div id="faqs" class="bg-white">
   <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
     <div class="mx-auto max-w-3xl divide-y divide-gray-900/10">
       <h2 class="text-2xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
