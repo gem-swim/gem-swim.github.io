@@ -22,22 +22,28 @@ employees:
             seeing that float for the first time! Thank you for trusting us to teach your kids. I can't wait to see you
             poolside!
   picture: kirsten.jpg
+- name: Kelly
+  title: Swim Instructor
+  description: Hi! I grew up in Utah and Hawaii and just recently moved to Boise after playing volleyball in college. 
+    I grew up surfing, and playing volleyball and basketball. I taught survival swim lessons for years in Utah and I was a lifeguard. 
+    I am CPR and first aid certified. I have more than 5 years experience in working with kids. I love seeing kids learn to love the water and be safe!
+  picture: kelly.jpeg
 - name: Olivia
-  title: Swim Teacher
-  description: Hey!! My name is Olivia. I'm currently a lifeguard at the rec center and CPR/AED certified. I love hanging 
-            out with kids! My goal this summer is to help your kids become comfortable and have fun in the water!
+  title: Swim Instructor
+  description: Hey! I'm currently a lifeguard at the rec center, certified WSI and CPR/AED certified. 
+    I love hanging out with kids! My goal is to help your kids become comfortable and have fun in the water!
   picture: liv.jpg
 - name: Kaleb
-  title: Swim Teacher
+  title: Swim Instructor
   description: Hello! My name is Kaleb. I am currently a member of the Nampa Shark Swim Team and Treasure Valley Water 
             Polo Team. From a young age, I have always loved swimming. I feel it is an important skill for everyone to 
             have. I look forward to meeting you and sharing not just the imporant swimming skills but also how fun it can be!
   picture: kaleb.jpg
 - name: Sadie
-  title: Swim Teacher
+  title: Swim Instructor
   description: Hello! I love being active and having fun! I am on my high school cross country, track, and swim team. 
-            I have also been competitively swimming for 9 years. I am Lifeguard and CPR certified and can't wait to meet 
-            your kids and help them feel as comfortable in the water as I am!
+    I have also been competitively swimming for a decade. I am Lifeguard, WSI and CPR certified and 
+    can't wait to meet your kids and help them feel as comfortable in the water as I am!
   picture: sadie.jpg
 
 faqs:
@@ -134,6 +140,16 @@ services:
     It's a great fit for kids who prefer to have their parents alongside them for instruction. 
     We're keeping the class small, with just 4 kids per session. 
     Parents should be prepared to jump in the water with their child for this class.
+- title: Parent and Me
+  image: parent_and_me.jpg
+  text: "This class is perfect for nervous children and parents to be introduced to the world of survival skills. 
+  Kirsten will walk you through simple survival skill techniques while you work on them with your child. 
+  You are able to modify the skills and fully take it at you and your child's pace/comfort level. 
+  <br />
+  <br />
+  Kirsten will be using her own daughter during the class to help show techniques and skills.
+  <br />
+  *ideal for children under 5 years old"
 
 # use false to turn off any social media links
 twitter: false
