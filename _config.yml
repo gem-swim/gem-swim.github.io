@@ -15,7 +15,7 @@ show-nav-menu: true
 
 employees:
 - name: Kirsten Clayton
-  title: Founder / CEO
+  title: Owner
   description: Welcome! I am the owner of Gem Swim and mother of 3 girls.
             I am a certified WSI, Survival Swim instructor and swim mom. I am passionate about safety and swimming and
             believe every child should know how to be safe in the water. I LOVE watching kids progress. Nothing beats
@@ -45,6 +45,17 @@ employees:
     I have also been competitively swimming for a decade. I am Lifeguard, WSI and CPR certified and 
     can't wait to meet your kids and help them feel as comfortable in the water as I am!
   picture: sadie.jpg
+- name: Talia
+  title: Swim Instructor
+  description: Hello! I'm so excited to be joining Gem Swim! I am currently in college and working toward a business degree. 
+    I grew up in and around the water! My favorite thing to do is go boating and wake surfing with my family. 
+    I also love working with kids and I can't wait to teach yours!
+  picture: talia.jpg
+- name: Camille
+  title: Swim Instructor
+  description: Hello! My name is Camille and I just finished my freshman year in college. 
+    I grew up competitively swimming and I'm so excited to help your kids learn water safety (and have some fun too)!
+  picture: camille.jpg
 
 faqs:
 - question: What are survival lessons?
