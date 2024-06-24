@@ -22,12 +22,14 @@ employees:
             seeing that float for the first time! Thank you for trusting us to teach your kids. I can't wait to see you
             poolside!
   picture: kirsten.jpg
-- name: Kelly
-  title: Swim Instructor
-  description: Hi! I grew up in Utah and Hawaii and just recently moved to Boise after playing volleyball in college. 
-    I grew up surfing, and playing volleyball and basketball. I taught survival swim lessons for years in Utah and I was a lifeguard. 
-    I am CPR and first aid certified. I have more than 5 years experience in working with kids. I love seeing kids learn to love the water and be safe!
-  picture: kelly.jpeg
+- name: Eddie
+  title: Manager/Swim Instructor
+  description: Hey everyone! I'm Eddie, and I'm excited to be part of the Gem Swim team.  With over 12 years of coaching 
+    experience, including currently serving as the head coach of the Nampa Swim Team, I have a passion for helping kids 
+    enjoy swimming, challenge themselves, and feel confident in the water.  My approach is calm and friendly -- I believe
+    in creating a supportive environment where kids can learn at their own pace while having fun.  I'm looking forward to
+    meeting your swimmers poolside soon!
+  picture: eddie.jpeg
 - name: Olivia
   title: Swim Instructor
   description: Hey! I'm currently a lifeguard at the rec center, certified WSI and CPR/AED certified. 
@@ -51,11 +53,12 @@ employees:
     I grew up in and around the water! My favorite thing to do is go boating and wake surfing with my family. 
     I also love working with kids and I can't wait to teach yours!
   picture: talia.jpg
-- name: Camille
+- name: Nate
   title: Swim Instructor
-  description: Hello! My name is Camille and I just finished my freshman year in college. 
-    I grew up competitively swimming and I'm so excited to help your kids learn water safety (and have some fun too)!
-  picture: camille.jpg
+  description: Hi! My name's Nate and I'm currently a lifeguard and swim instructor for the city of Nampa, in addition
+    to working at Gem Swim.  I love being around water, whether that's the ocean, lake or pool!  My goal is to have fun
+    with your kids and help them learn how to be safe in the water and love it just as much as I do!
+  picture: nate.jpeg
 
 faqs:
 - question: What are survival lessons?
